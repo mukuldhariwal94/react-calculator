@@ -46,7 +46,7 @@ class App extends Component {
         <ButtonHolder updateButtonsPressed={this.updateButtonsPressed} />
         <OperatorHolder updateButtonsPressed={this.updateButtonsPressed} />
         <Button evaluate={this.evaluate} label = "=" > = </Button>
-        <div className = "label-primary"><label> {this.state.currentLabel} </label></div>
+        <div className = "label-primary"><h1> {this.state.currentLabel} </h1></div>
       </div>
     );
   }
